@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/clinton/CLionProjects/4430 A1/cmake-build-debug",
-		"source" : "C:/Users/clinton/CLionProjects/4430 A1"
+		"build" : "C:/Users/clinton/CLionProjects/Lexical-Analyzer/cmake-build-debug",
+		"source" : "C:/Users/clinton/CLionProjects/Lexical-Analyzer"
 	},
 	"version" : 
 	{

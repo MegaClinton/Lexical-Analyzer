@@ -14,7 +14,8 @@ char punctuation[] = {',', ';', '(', ')', '{', '}', '[', ']'};
 
 
 int is_keyword(char *str) {
-    for (int i = 0; i < sizeof(keywords) / sizeof(keywords[0]); i++) {
+    for (int i = 0; i < sizeof(keywords) / sizeof(keywords[0]); i++)
+    {
         if (strcmp(str, keywords[i]) == 0) {
             return 1;
         }
