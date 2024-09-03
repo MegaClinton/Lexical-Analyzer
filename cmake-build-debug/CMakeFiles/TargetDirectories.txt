@@ -1,0 +1,3 @@
+C:/Users/clinton/CLionProjects/4430 A1/cmake-build-debug/CMakeFiles/4430_A1.dir
+C:/Users/clinton/CLionProjects/4430 A1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/clinton/CLionProjects/4430 A1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
