@@ -75,7 +75,10 @@ void identify_token(FILE *file, char ch) {
 }
 
 int main() {
-    FILE *file = fopen("test1.txt", "r");
+    printf("Enter file name: ");
+    char filename[256];
+    scanf("%s", filename);
+    FILE *file = fopen(filename, "r");
     if (file == NULL)
     {
         printf("Error opening file!\n");
