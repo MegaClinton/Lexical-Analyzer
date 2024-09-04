@@ -9,8 +9,6 @@ char *keywords[] = {
         "struct", "switch", "typedef", "union", "unsigned", "void", "volatile", "while"
 };
 char operators[] = {'+', '-', '*', '/', '%', '='};
-char punctuation[] = {',', ';', '(', ')', '{', '}', '[', ']'};
-
 
 
 int is_keyword(char *str) {
@@ -64,7 +62,7 @@ void identify_token(FILE *file, char ch) {
         printf("(%c, Operator)\n", ch);
     }
         // Check if the character is a punctuation mark
-    else if (strchr(punctuation, ch) != NULL) {
+    else if (ispunct(ch)) {
         printf("(%c, Punctuation)\n", ch);
     }
     else if (isspace(ch)) {
